@@ -28,4 +28,11 @@ This document outlines the detailed connections for the Waveshare Shield schemat
 ## Review
 - Review the schematic for any errors or missing connections.
 
+## Dimensions and Layout
+- The radius of the circular part of the Waveshare 1.28" LCD ESP32-S3 board is 18.25 mm.
+- The distance between the two sets of 2x10 pin headers on the flat edge is 12.81 mm.
+- The width of the flat edge, where the USB-C connector is located, is 18.37 mm.
+- The distance from the center of the board to the flat edge is 27.00 mm.
+- The pin headers are spaced at 1.27 mm intervals.
+
 This document should be used as a guide to create the schematic in KiCad or any other PCB design software. Once the schematic is drafted, it should be reviewed for accuracy and completeness before proceeding with the PCB layout and prototyping.
