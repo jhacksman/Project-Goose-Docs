@@ -67,6 +67,12 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
 ### I2C Headers
 - **SDA and SCL Lines:** Connected to the I2C bus for communication with the Waveshare board.
 
+### Male Header Pins
+- **Pin Pitch:** 1.27mm
+- **Configuration:** Two 2x10 pin arrays, total of 40 pins.
+- **Spacing:** 27mm apart on center.
+- **Orientation:** Pins are lined up parallel, 10 pins face each other.
+
 ### Common Ground
 - Connect all ground pins to a common ground plane.
 
@@ -76,7 +82,7 @@ The Waveshare Shield is designed to be used in conjunction with the Waveshare 1.
 2. **Tandem Servo Mode:** Controls two servos in tandem, where one servo is driven forward while the other is driven equally backward for 180-degree operation.
 
 ## Installation
-1. Connect the Waveshare Shield to the Waveshare 1.28" LCD ESP32-S3 board using the 1.27mm pitch headers.
+1. Connect the Waveshare Shield to the Waveshare 1.28" LCD ESP32-S3 board using the 1.27mm pitch male header pins, ensuring the 2x10 pin arrays are spaced 27mm apart on center.
 2. Connect the power supply to the buck converter input (DC 4.5 - 24V).
 3. Connect the servos to the ACS712 current sensors.
 4. Connect the I2C devices to the I2C headers.
@@ -95,7 +101,7 @@ The Waveshare Shield is designed to be used in conjunction with the Waveshare 1.
 
 ## Notes
 - Ensure that the ACS712 sensors are correctly oriented to measure current flow in the desired direction.
-- Verify the pinout and orientation of the 20-pin connectors on the Waveshare board once the details are confirmed.
+- Verify the pinout and orientation of the 20-pin connectors on the Waveshare board once the details are confirmed, ensuring the male header pins on the shield match the female headers on the Waveshare board.
 - Double-check the connections for the servo connectors to ensure proper functionality.
 - Ensure all connections are secure and follow the specified pin assignments.
 - Verify the orientation and placement of components before finalizing the schematic.
