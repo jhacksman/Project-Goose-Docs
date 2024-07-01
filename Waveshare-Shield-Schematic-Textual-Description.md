@@ -21,8 +21,10 @@
 - **Input Voltage:** 7.5V
 - **Output Voltage:** 5V
 - **Connections:**
-  - **Input:** Connected to the main power supply.
-  - **Output:** Provides 5V to the ACS712 sensors and other components.
+  - **Pin 1 (EN):** Enable pin (not used, ignore).
+  - **Pin 2 (IN+):** 7.5V input voltage.
+  - **Pin 3 (GND):** Ground.
+  - **Pin 4 (VO+):** 5V output voltage.
 
 ### I2C Headers
 - **SDA and SCL Lines:** Connected to the I2C bus for communication with the Waveshare board.
