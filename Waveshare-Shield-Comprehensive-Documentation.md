@@ -7,14 +7,15 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
 
 ### 1. Buck Converter
 - **Brand:** Weewooday
-- **Input Voltage:** DC 4.5 - 24V
-- **Adjustable Output Voltage Range:** 0.8 - 17V
-- **Fixed Output Voltage Options:** 1.8V, 2.5V, 3.3V, 5V, 9V, 12V (selectable)
-- **Output Current:** 3A max (enhanced cooling required at full load)
-- **Conversion Efficiency:** Up to 97.5%
-- **Operating Temperature:** -40℃ - +85℃
-- **Static Current:** 0.85 mA
-- **Size:** 20 x 11 x 5 mm
+- **Input Voltage:** 12V DC
+- **Output Voltage:** 5V
+- **Output Current:** 3A maximum
+- **No-load Current:** 10mA
+- **Output Power:** 15W maximum
+- **Conversion Efficiency:** Up to 96%
+- **Protection Features:** Overvoltage protection, overcurrent protection, over temperature protection, short circuit protection
+- **Applicable Occasions:** GPS navigation, driving recorder, car radio, car audio, MP3/MP4, walkie talkie, surveillance system, bus display, taxi advertising screen, LCD TV, LED
+- **Note:** The datasheet for the Weewooday buck converter is not provided. The detailed specifications are included within this document.
 
 ### 2. ACS712 Current Sensors
 - **Model:** ACS712 (5A)
@@ -32,7 +33,7 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
   - **Pin 6 (FILTER):** Connected to a 1nF capacitor (C(F)) to ground.
   - **Pin 7 (VIOUT):** Voltage output, potentially connected to an indicator (e.g., LED).
   - **Pin 8 (5V):** Connected to a 0.1 μF capacitor (C(BYP)) to ground.
-- **Datasheet:** [ACS712 Datasheet](./ACS712_datasheet.pdf)
+- **Datasheet:** [ACS712 Datasheet](./spec_sheets/ACS712_datasheet.pdf)
 
 ### 3. I2C Headers
 - **Type:** JST Connectors
@@ -125,7 +126,7 @@ The Waveshare Shield is designed to be used in conjunction with the Waveshare 1.
 - Ensure all connections are secure and follow the specified pin assignments.
 - Verify the orientation and placement of components before finalizing the schematic.
 - Review the schematic with the user for accuracy and completeness before proceeding with PCB layout and prototyping.
-- **Datasheet:** [ACS712 Datasheet](./ACS712_datasheet.pdf)
+- **Datasheet:** [ACS712 Datasheet](./spec_sheets/ACS712_datasheet.pdf)
 
 ## Conclusion
 The Waveshare Shield enhances the functionality and modularity of the Waveshare 1.28" LCD ESP32-S3 board, providing additional features such as current sensing, voltage regulation, and I2C connectivity. This shield is an essential component for the Project Goose robot arm, enabling precise control and monitoring of the servos.
