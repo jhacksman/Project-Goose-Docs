@@ -31,6 +31,17 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
 - **Pin Pitch:** 1.27mm
 - **Voltage:** 3.3V/5V
 
+### TWAI Protocol Headers
+- **Protocol:** TWAI (Two-Wire Automotive Interface)
+- **Compatibility:** ISO11898-1 Classical frames
+- **Controller:** ESP32 TWAI controller
+- **External Transceiver:** Required to connect TWAI controller to TWAI bus
+- **Pin Configuration:**
+  - **Pin 1:** TWAI_TX (Transmit)
+  - **Pin 2:** TWAI_RX (Receive)
+  - **Pin 3:** Ground
+  - **Pin 4:** 5V Power
+
 ### 4. Common Ground
 - **Description:** A common ground connection for all components on the shield to ensure proper electrical grounding and signal integrity.
 
