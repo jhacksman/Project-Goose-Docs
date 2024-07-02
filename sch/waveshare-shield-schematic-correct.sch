@@ -34,6 +34,10 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4600 1650 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 4500 2000 50  0001 C CNN
 	1    4500 2000
 	1    0    0    -1
+	1    1    1    1
+	1    2    1    1
+	1    3    1    0
+	1    4    1    0
 $EndComp
 $Comp
 L Sensor_Current:ACS712xLCTR-05B U3
@@ -45,6 +49,10 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6600 1650 50  0001 L CIN
 F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 6500 2000 50  0001 C CNN
 	1    6500 2000
 	1    0    0    -1
+	1    1    1    1
+	1    2    1    1
+	1    3    1    0
+	1    4    1    0
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J1
