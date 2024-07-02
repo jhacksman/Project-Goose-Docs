@@ -7,14 +7,14 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
 
 ### 1. Buck Converter
 - **Brand:** Weewooday
-- **Input Voltage:** DC 4.5 - 24V
-- **Adjustable Output Voltage Range:** 0.8 - 17V
-- **Fixed Output Voltage Options:** 1.8V, 2.5V, 3.3V, 5V, 9V, 12V (selectable)
-- **Output Current:** 3A max (enhanced cooling required at full load)
-- **Conversion Efficiency:** Up to 97.5%
-- **Operating Temperature:** -40℃ - +85℃
-- **Static Current:** 0.85 mA
-- **Size:** 20 x 11 x 5 mm
+- **Input Voltage:** 12V DC
+- **Output Voltage:** 5V
+- **Output Current:** 3A maximum
+- **No-load Current:** 10mA
+- **Output Power:** 15W maximum
+- **Conversion Efficiency:** Up to 96%
+- **Protection Features:** Overvoltage protection, overcurrent protection, over temperature protection, short circuit protection
+- **Applicable Occasions:** GPS navigation, driving recorder, car radio, car audio, MP3/MP4, walkie talkie, surveillance system, bus display, taxi advertising screen, LCD TV, LED
 
 ### 2. ACS712 Current Sensors
 - **Model:** ACS712 (5A)
