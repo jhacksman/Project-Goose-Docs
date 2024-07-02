@@ -15,6 +15,7 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
 - **Conversion Efficiency:** Up to 96%
 - **Protection Features:** Overvoltage protection, overcurrent protection, over temperature protection, short circuit protection
 - **Applicable Occasions:** GPS navigation, driving recorder, car radio, car audio, MP3/MP4, walkie talkie, surveillance system, bus display, taxi advertising screen, LCD TV, LED
+- **Note:** The datasheet for the Weewooday buck converter is not provided. The detailed specifications are included within this document.
 
 ### 2. ACS712 Current Sensors
 - **Model:** ACS712 (5A)
