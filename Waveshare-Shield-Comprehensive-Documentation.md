@@ -32,7 +32,7 @@ The Waveshare Shield is a companion board designed to work with the Waveshare 1.
   - **Pin 6 (FILTER):** Connected to a 1nF capacitor (C(F)) to ground.
   - **Pin 7 (VIOUT):** Voltage output, potentially connected to an indicator (e.g., LED).
   - **Pin 8 (5V):** Connected to a 0.1 μF capacitor (C(BYP)) to ground.
-- **Datasheet:** [ACS712 Datasheet](./ACS712_datasheet.pdf)
+- **Datasheet:** [ACS712 Datasheet](./spec_sheets/ACS712_datasheet.pdf)
 
 ### 3. I2C Headers
 - **Type:** JST Connectors
@@ -125,7 +125,7 @@ The Waveshare Shield is designed to be used in conjunction with the Waveshare 1.
 - Ensure all connections are secure and follow the specified pin assignments.
 - Verify the orientation and placement of components before finalizing the schematic.
 - Review the schematic with the user for accuracy and completeness before proceeding with PCB layout and prototyping.
-- **Datasheet:** [ACS712 Datasheet](./ACS712_datasheet.pdf)
+- **Datasheet:** [ACS712 Datasheet](./spec_sheets/ACS712_datasheet.pdf)
 
 ## Conclusion
 The Waveshare Shield enhances the functionality and modularity of the Waveshare 1.28" LCD ESP32-S3 board, providing additional features such as current sensing, voltage regulation, and I2C connectivity. This shield is an essential component for the Project Goose robot arm, enabling precise control and monitoring of the servos.
